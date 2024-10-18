@@ -82,7 +82,7 @@ def get_status(guess_count):
          |      (_)
          |      \|/
          |       |
-         |      / \\
+         |      / \
          |
        _|___
         """
