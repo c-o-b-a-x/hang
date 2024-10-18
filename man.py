@@ -104,8 +104,8 @@ def guess_system(word):
         
         guess = input("Guess a letter: ").lower().strip()
 
-        if len(guess) != 1:
-            print("THAT'S TOO MANY LETTERS")
+        if not guess.isalpha() or len(guess) != 1:
+            print("Invalid input. Please enter a single letter.")
             continue
 
         if guess in guessed_letters:
